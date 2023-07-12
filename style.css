@@ -1,2 +1,27 @@
 @charset: "utf-8";
 
+#top {
+  width: 800px;
+  background: #dcc9f4;
+  margin: 20px 0;
+  text-align: center;
+}
+
+#top > .top-child {
+  width: 20%;
+  background: #ffd9df;
+}
+
+#middle {
+  width: 800px;
+  height: 800px;
+  margin: 20px 0;
+  background: #ffd9df;
+}
+
+#middle > #middle-child01, middle-child02, middle-child03 {
+  width: 200px;
+  height: 200px;
+  background: #87ceeb;
+}
+
