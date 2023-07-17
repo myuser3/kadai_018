@@ -10,14 +10,9 @@
 }
 
 .top-child {
-  display: inline;
-}
-
-.top-child > p {
   width: 20%;
   background: #ffd9df;
-  display: inline;
-  text-align: center;
+  display: inline-block;
 }
 
 /* Step4-1 */
