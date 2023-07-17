@@ -5,7 +5,7 @@
 #top {
   width: 800px;
   background: #dcc9f4;
-  margin: 20px 0;
+  padding: 20px 0;
   text-align: center; 
 }
 
@@ -15,6 +15,7 @@
 }
 
 .top-child > p {
+  width: 20%;
   background: #ffd9df;
   display: inline;
   text-align: center;
