@@ -1,27 +1,84 @@
-@charset: "utf-8";
+@charset "utf-8";
+
+/* Step2〜3 */
 
 #top {
   width: 800px;
   background: #dcc9f4;
   margin: 20px 0;
+  text-align: center; 
+}
+
+.top-child {
+  display: inline;
+  margin: 20px 0;
+}
+
+.top-child > p {
+  background: #ffd9df;
+  display: inline;
   text-align: center;
 }
 
-#top > .top-child {
-  width: 20%;
-  background: #ffd9df;
-}
+/* Step4-1 */
 
 #middle {
   width: 800px;
   height: 800px;
   margin: 20px 0;
   background: #ffd9df;
+  position: relative;
 }
 
-#middle > #middle-child01, middle-child02, middle-child03 {
+
+#middle-child01 {
+  position: absolute;
+  margin-top: 100px;
+  margin-left: 100px;
   width: 200px;
   height: 200px;
   background: #87ceeb;
 }
 
+#middle-child02 {
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 300px;
+  width: 200px;
+  height: 200px;
+  background: #87ceeb;
+}
+
+#middle-child03 {
+  position: absolute;
+  margin-top: 500px;
+  margin-left: 500px;
+  width: 200px;
+  height: 200px;
+  background: #87ceeb;
+}
+
+#bottom {
+  width: 800px;
+  height: 300px;
+  text-align: center;
+  /* 画面の中央に配置 */
+  background: #87ceeb;
+  position: relative;
+  display: block;
+}
+
+#bottom-child01, #bottom-child02, #bottom-child03 {
+  width: 400px;
+  height: 100px;
+  background: #e5dcf0;
+}
+
+#bottom-child02 {
+  margin-right: 200px;
+  margin-left: 200px;
+}
+
+#bottom-child03 {
+  margin-left: 400px;
+}
